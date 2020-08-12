@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>
+      MoonMath - Calculate the Marketcap Required for a Specific Coin Price
+    </title>
+    <meta
+      name="title"
+      content="MoonMath - Calculate the Marketcap Required for a Specific Coin Price"
+    />
+    <meta
+      name="description"
+      content="The best place to create hopium and dream of the millions you'll never make!"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta
+      property="og:title"
+      content="MoonMath - Calculate the Marketcap Required for a Specific Coin Price"
+    />
+    <meta
+      property="og:description"
+      content="The best place to create hopium and dream of the millions you'll never make!"
+    />
+    <meta
+      property="og:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta
+      property="twitter:title"
+      content="MoonMath - Calculate the Marketcap Required for a Specific Coin Price"
+    />
+    <meta
+      property="twitter:description"
+      content="The best place to create hopium and dream of the millions you'll never make!"
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="body">
+      <header>
+        <img src="/public/RrzLrxK.png" alt="Rocket to the moon" />
+        <h1>🌕 Moon Math 🌙</h1>
+        <p>
+          See the required marketcaps for coins at your moon target prices.
+        </p>
+        <i>
+          *None of these prices are expected to be hit, this is just for fun.
+        </i>
+      </header>
+      <main>
+        <div class="calculator">
+          <input type="text" placeholder="Price per Coin" id="price-input" />
+          <span>x</span>
+          <input
+            type="text"
+            placeholder="Circulating Supply"
+            id="supply-input"
+          />
+          <span>=</span>
+          <input type="text" disabled id="mcap-input" />
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <td>Name</td>
+              <td class="center">Moon</td>
+              <td class="center">Megamoon</td>
+              <td class="center">ULTRAMOON</td>
+              <!-- <td class="center">Custom Moon</td> -->
+              <td class="center">Supply</td>
+            </tr>
+          </thead>
+          <tbody id="coins"></tbody>
+        </table>
+
+        <div class="donate center">
+          Donate BTC: 3A3U6ir7qCvkDCXNQ3G9UHuWxxTW3Xfpct
+        </div>
+      </main>
+
+      <div class="bg"></div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

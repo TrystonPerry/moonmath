@@ -1,0 +1,125 @@
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #e9bd64;
+}
+
+.body {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2rem;
+  z-index: 100;
+}
+
+header img {
+  width: 100%;
+  max-width: 200px;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+header i {
+  font-size: 0.75rem;
+}
+
+main {
+  padding: 0 2rem;
+}
+
+.calculator {
+  margin-bottom: 2rem;
+  width: 100%;
+  display: flex;
+}
+
+input {
+  background: #ffeed8;
+  border: 2px solid #ffab36;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+
+.calculator input {
+  margin: 0 10px;
+  flex-grow: 1;
+}
+
+table {
+  width: 100%;
+}
+
+thead tr td {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+td {
+  padding: 0 0.5rem;
+}
+
+.coin-name {
+  display: flex;
+  align-items: center;
+}
+
+.coin-name img {
+  flex-shrink: 0;
+  margin-right: 0.25rem;
+}
+
+.coin-name h2 {
+  font-size: 1.25rem;
+}
+
+.coin-moon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coin-moon-price {
+  font-size: 1.25rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.donate {
+  margin-top: 2rem;
+}
+
+.bg {
+  position: absolute;
+  top: 125px;
+  width: 100%;
+  height: 100%;
+  height: calc(100% - 6rem);
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fccdb2 0%, #f7dfa2 100%);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  z-index: -1;
+  margin-bottom: 2.5rem;
+}
